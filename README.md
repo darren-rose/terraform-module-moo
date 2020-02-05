@@ -4,7 +4,7 @@
 
 ```
 module "moo" {
-  source = "github.com/darren-rose/terraform-module-moo"
+  source = "github.com/darren-rose/terraform-module-moo?ref=v0.1"
 
   say = var.say
 }
